@@ -1,9 +1,10 @@
 import React from 'react';
 import './service.css';
-
+import './card.css';
 function Service() {
   return (
-    <section className="min-h-screen  bg-white dark:bg-gray-800 w-screen flex items-center justify-center">
+    <div className="flex flex-row">
+    <section className="min-h-screen  bg-white dark:bg-gray-800 w-1/2 flex-col flex items-center justify-center">
       <div className="cube-container">
         <div className="cube">
           <div className="face front">Frontend development</div>
@@ -14,7 +15,14 @@ function Service() {
           <div className="face bottom">post design</div>
         </div>
       </div>
+    
     </section>
+    <div className='min-h-screen   bg-white dark:bg-gray-800 w-1/2 flex-col flex items-center justify-center'>
+      <h1 className='bg-red text-indigo-500'>
+      Crafting Stunning Websites and Iconic Logos That Define Your Brand.
+      </h1>
+    </div>
+    </div>
   );
 }
 

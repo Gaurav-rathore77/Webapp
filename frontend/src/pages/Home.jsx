@@ -18,7 +18,8 @@ const App = () => {
 
   return (
     <>
-    <div className="relative h-screen w-screen">
+    <div className="relative h-screen w-screen shadow-2xl">
+      <div className="relative h-screen shadow-2xl">
       {/* Canvas */}
       <Canvas
         camera={{
@@ -33,7 +34,7 @@ const App = () => {
       </Canvas>
 
       {/* Centered Text */}
-      <div className="absolute inset-0 flex items-center justify-center z-10">
+      <div className="absolute inset-0 flex items-center justify-center z-10 shadow-2xl">
         <TextHead/>
       </div>
 
@@ -47,13 +48,16 @@ const App = () => {
       </button>
 
       {/* Second Page */}
-     <div>
+      </div>
+     <div className="relative">
       <CardHang/>
-     </div>
+     </div >
       <Service/>
       <Service2/>
       <Banner/>
+      <div className="relative inset-0 bg-gradient-radial from-transparent to-gray-800 opacity-75">
       <Footer/>
+      </div>
     </div>
     </>
   );

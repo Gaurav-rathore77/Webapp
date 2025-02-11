@@ -11,13 +11,13 @@ function Banner() {
     
       <div class="flex flex-col justify-center text-center md:text-left z-10">
         <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-8xl font-extrabold text-gray-600 uppercase leading-tight tracking-tight">
-          Design with <span class="text-yellow-500">Impact</span>
+          Design with <span class=" text-indigo-500">Impact</span>
         </h1>
         <p class="mt-4 text-base sm:text-lg md:text-xl font-medium  dark:text-gray-400 text-gray-700 text-balance">
           Brutal aesthetics for a bold web presence. Build without compromise.
         </p>
         <div class="mt-6 sm:mt-8 flex flex-wrap gap-4">
-          <a href="#get-started" class="rounded-sm p-3 grow text-center bg-yellow-500 text-black font-bold uppercase text-sm tracking-widest hover:bg-yellow-600 transition">
+          <a href="#get-started" class="rounded-sm p-3 grow text-center  bg-indigo-500 text-black font-bold uppercase text-sm tracking-widest hover:bg-yellow-600 transition">
             Get Started
           </a>
           <a href="#learn-more" class="rounded-sm p-3 grow border text-center border-yellow-500 text-yellow-500 font-bold uppercase text-sm tracking-widest hover:bg-yellow-500 hover:text-black transition">

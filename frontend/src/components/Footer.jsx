@@ -7,7 +7,7 @@ function Footer() {
         <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <div className="text-teal-600 dark:text-teal-300">
+              {/* <div className="text-teal-600 dark:text-teal-300">
                 <svg
                   className="h-8"
                   viewBox="0 0 118 24"
@@ -55,7 +55,7 @@ function Footer() {
                     fill="currentColor"
                   />
                 </svg>
-              </div>
+              </div> */}
 
               <p className="mt-4 max-w-xs text-gray-500 dark:text-gray-400">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse

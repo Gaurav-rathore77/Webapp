@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { twMerge } from 'tailwind-merge';
-
+import './card.css';
 function App() {
   return (
     <section className="relative grid  bg-white dark:bg-gray-800  min-h-screen w-screen place-content-center overflow-hidden text-gray-800 dark:text-gray-200">
-      <h2 className="relative z-0 text-[20vw] font-black text-neutral-800 md:text-[200px]">
-        ASTRO<span className="text-indigo-500">.</span>
+      <h2 className="relative z-0 text-[20vw] font-black text-blue-900 md:text-[200px]">
+        GAURAV<span className="text-indigo-500">.</span>
       </h2>
       <Cards />
     </section>
@@ -20,7 +20,7 @@ const Cards = () => {
     <div className="absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1635373670332-43ea883bb081?q=80&w=2781&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/8.jpg"
         alt="Example image"
         rotate="6deg"
         top="20%"
@@ -29,7 +29,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1576174464184-fb78fe882bfd?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/1.jpg"
         alt="Example image"
         rotate="12deg"
         top="45%"
@@ -38,7 +38,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1503751071777-d2918b21bbd9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/2.jpg"
         alt="Example image"
         rotate="-6deg"
         top="20%"
@@ -47,7 +47,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1620428268482-cf1851a36764?q=80&w=2609&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/3.jpg"
         alt="Example image"
         rotate="8deg"
         top="50%"
@@ -56,7 +56,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1602212096437-d0af1ce0553e?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/4.jpg"
         alt="Example image"
         rotate="18deg"
         top="20%"
@@ -65,7 +65,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="https://images.unsplash.com/photo-1622313762347-3c09fe5f2719?q=80&w=2640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="/images/5.jpg"
         alt="Example image"
         rotate="-3deg"
         top="35%"

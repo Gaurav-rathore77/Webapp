@@ -29,15 +29,15 @@ export default function App() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper w-screen h-screen  bg-white dark:bg-gray-800"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide><img src="./pulic/images/1.jpg" alt="" /></SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img src="./images/7.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/6.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/2.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/1.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/4.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/3.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/5.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/9.jpg" alt="" /></SwiperSlide>
+        <SwiperSlide><img src="./images/8.jpg" alt="" /></SwiperSlide>
       </Swiper>
     </>
   );
